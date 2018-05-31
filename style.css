@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Cinzel|Cinzel+Decorative');
+
+/* Global */
+html, body {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	box-sizing: border-box;
+}
+
+article {
+	background: #FFF;
+	margin-top: 4em;
+}
+
+header {
+	font-size: 120%;
+}
+
+/* Headers */
+h1, h2, h3 {
+	font-family: 'Cinzel', serif;
+	text-align: center;
+	margin: 1em auto;
+	margin-bottom: 1em;
+}
+
+h3 {
+/*	word-spacing: 4px;
+	letter-spacing: -1px;
+*/	margin-bottom: -2.5em;
+	color: #555;
+}
+
+h2 {
+	margin-top: -2em;
+	margin-bottom: 3em;
+}
+
+h1 {
+	font-family: 'Cinzel Decorative', serif;
+	letter-spacing: .25em;
+	font-size: 3em;
+	font-weight: bold;
+	margin-bottom: 2em;
+}
+
+h4 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: bold;
+	color: gray;
+	margin: 2.5em 0 2em -1em;
+}
+
+/* Text */
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+
+span {
+	line-height: 1.75;
+}
+
+sup {
+	font-size: x-small;
+	margin-right: 3px;
+	color: #999;
+}
+
+sub {
+	color: #AAA;
+	text-decoration: italic;
+	font-size: xx-small;
+}
+
+q.red {
+	color: darkRed;
+}
+
+footer {
+	font-family: 'Merriweather Sans', sans-serif;
+	margin-top: 4em;	
+	text-size: xx-small;
+	color: lightGray;
+	text-transform: small-caps;
+	text-align: center;
+}
